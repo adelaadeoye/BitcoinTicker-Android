@@ -62,4 +62,17 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/logoImage"
+        android:layout_toRightOf="@+id/logoImage"
+        android:text="AUD"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
 </RelativeLayout>
